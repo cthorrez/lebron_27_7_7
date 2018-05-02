@@ -1,0 +1,29 @@
+body{
+  font-family: sans-serif;
+  margin: 40px auto;
+  padding: 0px 10px;
+  max-width: 1000px;
+  line-height: 1.6;
+  font-size: 18px;
+  background-color: #eee;
+}
+
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 33.33%;
+  padding: 5px;
+}
+
+
+img {
+    transition:transform 0.25s ease;
+}
+
+img:hover {
+    -webkit-transform:scale(1.75); /* or some other value */
+    transform:scale(1.75);
+}
+
